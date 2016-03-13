@@ -6,3 +6,4 @@ Caramel was created to provide a dependency free alternative to Laravel to allow
 
 1. Add your MySQL credentials to the constants.php file
 2. Require your controllers and models in the bootstrap.php file
+3. Direct all traffic to the public folder
