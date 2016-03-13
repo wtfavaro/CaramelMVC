@@ -10,7 +10,7 @@ header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 
 // Test Controller
-/* Router::get('/', 'RootController@get'); */
+Router::get('/', 'RootController@get');
 
 /* It's good practice to set up an error route */
 Router::error(function(){

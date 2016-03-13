@@ -20,6 +20,7 @@ $carmdb = new \Database\Core(MYSQL_DATABASE);
 # Require all the models.
 
 # Require all controllers.
+require 'controllers/RootController.php';
 
 # Begin to route traffic.
 require 'routes.php';
